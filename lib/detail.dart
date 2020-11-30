@@ -160,7 +160,7 @@ class Detail extends StatelessWidget {
         borderRadius: BorderRadius.all(
           Radius.circular(50),
         ),
-        boxShadow: [kBoxShadow],
+        boxShadow: [gBoxShadow],
       ),
       child: Row(
         children: [
@@ -170,7 +170,7 @@ class Detail extends StatelessWidget {
             decoration: BoxDecoration(
               color: Colors.white,
               shape: BoxShape.circle,
-              boxShadow: [kBoxShadow],
+              boxShadow: [gBoxShadow],
             ),
             child: Center(
               child: Text(
